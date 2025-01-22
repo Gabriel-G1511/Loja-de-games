@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 16px 0;
+    background-color: rgb(43, 2, 51);
+    color: rgba(248, 248, 248, 0.719);
+}
+    header,section h2,section h3 {
+        font-family: "Bungee", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+header nav li{
+    display: inline;
+    margin: 16px;
+    color: rgb(248, 248, 248);
+    margin-left: 16px;
+    font-size: 18px;
+}
+header,section h2,section h3{
+    font-weight: normal;
+}
+body,input,textarea {
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+header nav li a{
+    display: inline;
+    margin: 16px;
+    text-decoration: none;
+    color: rgb(248,248,248);
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands img {
+    height: 24px;
+}
+.brands li {
+    display: inline;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 0px;
+}
+.store-front {
+    margin-right: 32px;
+}
+.social-links img{
+    height: 24px;
+}
+.social-links li{
+    display:inline;
+    margin-right: 0px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+.contact .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,textarea,button{
+    display: block;
+    width: 320px;
+    margin-bottom: 0px;
+    padding: 0px; 
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+section h3{
+    margin-bottom:16px;
+}
+form button {
+    background-color: rgb(43, 2, 51);
+    color: aliceblue;
+    border: none;
+}
+
+form button:hover{
+    background-color: rgb(43, 2, 51);
+}
+
+input:focus textarea:focus{
+    outline: color(rgb(43, 2, 51);
+}
+
+footer{
+    background-color: rgb(43, 2, 51);
+    color: aliceblue;
+    padding: 16px 0px;
+}
